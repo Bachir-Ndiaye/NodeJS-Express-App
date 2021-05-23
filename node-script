@@ -1,0 +1,24 @@
+#!/bin/bash 
+
+# Generate package.json file
+npm init -y
+
+# Install expess
+npm i express
+
+# Install package to handle dates
+npm install moment
+
+# Create frontal controller 
+touch index.js
+mkdir public
+touch public/index.html
+
+# Install nodeman package to watch changing and reload server
+npm install nodemon --save-dev
+
+# Install uuid to generate a random universal ID
+npm install uuid
+
+# Install express handlebars for template rendering
+npm install express-handlebars
